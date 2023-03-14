@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../src/index.css">
+    <title>React</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container logo-nav-container">
+            <a href="index.html" class="logo">FAST FOOD J.J</a>
+
+
+            <nav class="navbar">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="producto.html">productos</a></li>
+                    <li><a href="nosotros.html">nosotros</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="main">
+    <section class="contenedor">
+        <div class="contenedor-items">
+            <div class="item">
+                <span class="titulo-item">Arepa rellena</span>
+                <img src="../src/imagenes/arepa.jpg" alt="" class="img-item">
+                <span class="precio-item">$10.000</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Asado(250gr)</span>
+                <img src="../src/imagenes/asado.jpg" alt="" class="img-item">
+                <span class="precio-item">$13.000</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Hamburguesa</span>
+                <img src="../src/imagenes/hamburguesa.jpg" alt="" class="img-item">
+                <span class="precio-item">$12.000</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Perro Caliente</span>
+                <img src="../src/imagenes/perro caliente.jpg" alt="" class="img-item">
+                <span class="precio-item">$11.000</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Pizza Familiar</span>
+                <img src="../imagenes/pizza.jpg" alt="" class="img-item">
+                <span class="precio-item">$35.000</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Salchipapa</span>
+                <img src="../imagenes/salchipapas.jpg" alt="" class="img-item">
+                <span class="precio-item">$15.000</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Milanesa (adicon de papas gratis)</span>
+                <img src="../imagenes/milanesa-papas-fritas.jpg" alt="" class="img-item">
+                <span class="precio-item">$12.000</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">sandwiches de jamon</span>
+                <img src="../imagenes/sandwiches-jamon-.jpg" alt="" class="img-item">
+                <span class="precio-item">$11.000</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+           
+        </div>
+
+        <!-- Carrito de Compras -->
+        <div class="carrito" id="carrito">
+            <div class="header-carrito">
+                <h2>Tu Carrito</h2>
+            </div>
+
+            <div class="carrito-items">
+                <!-- 
+                <div class="carrito-item">
+                    <img src="img/boxengasse.png" width="80px" alt="">
+                    <div class="carrito-item-detalles">
+                        <span class="carrito-item-titulo">Box Engasse</span>
+                        <div class="selector-cantidad">
+                            <i class="fa-solid fa-minus restar-cantidad"></i>
+                            <input type="text" value="1" class="carrito-item-cantidad" disabled>
+                            <i class="fa-solid fa-plus sumar-cantidad"></i>
+                        </div>
+                        <span class="carrito-item-precio">$15.000,00</span>
+                    </div>
+                   <span class="btn-eliminar">
+                        <i class="fa-solid fa-trash"></i>
+                   </span>
+                </div>
+                <div class="carrito-item">
+                    <img src="img/skinglam.png" width="80px" alt="">
+                    <div class="carrito-item-detalles">
+                        <span class="carrito-item-titulo">Skin Glam</span>
+                        <div class="selector-cantidad">
+                            <i class="fa-solid fa-minus restar-cantidad"></i>
+                            <input type="text" value="3" class="carrito-item-cantidad" disabled>
+                            <i class="fa-solid fa-plus sumar-cantidad"></i>
+                        </div>
+                        <span class="carrito-item-precio">$18.000,00</span>
+                    </div>
+                   <button class="btn-eliminar">
+                        <i class="fa-solid fa-trash"></i>
+                   </button>
+                </div>
+                 -->
+            </div>
+            <div class="carrito-total">
+                <div class="fila">
+                    <strong>Tu Total</strong>
+                    <span class="carrito-precio-total">
+                        $120.000,00
+                    </span>
+                </div>
+                <button class="btn-pagar">Pagar <i class="fa-solid fa-bag-shopping"></i> </button>
+            </div>
+        </div>
+    </section>
+</main>
+
+    
+
+
+
+<div>
+    <h2>Encuentranos en nuestro punto fisico:</h2>
+</div>    
+    <footer class="footer">
+        <div class="container"></div>
+        <div class="mapa"><iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3941.1955818960973!2d-75.45132375048043!3d8.954118092593237!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e596327d7a01e15%3A0x95fa1e11be27c9c1!2sUniremington%20Sahag%C3%BAn!5e0!3m2!1ses!2sco!4v1678449118760!5m2!1ses!2sco"
+                width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+
+
+    </footer>
+    <script src="../src/index.js"></script>
+</body>
+
+</html>
